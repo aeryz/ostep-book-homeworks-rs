@@ -1,0 +1,16 @@
+[workspace]
+edition = "2024"
+resolver = "3"
+members = ["virtualization/process-api-5-1"]
+
+[workspace.package]
+license = "MIT OR Apache-2.0"
+edition = "2024"
+
+[workspace.dependencies]
+anyhow = { version = "1", default-features = false }
+env_logger = { version = "0.11.5", default-features = false }
+log = { version = "0.4.22", default-features = false }
+libc = { version = "0.2", default-features = false }
+nix = { version = "0.3", default-features = false }
+

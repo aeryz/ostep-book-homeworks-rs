@@ -1,0 +1,9 @@
+[package]
+name = "process-api-5-1"
+version = "0.1.0"
+license.workspace = true
+edition.workspace = true
+
+[dependencies]
+libc = { workspace = true, features = ["std"] }
+nix = { workspace = true }
